@@ -202,75 +202,31 @@ input::placeholder{
     padding: 10%;
 }
 @media only screen and (max-width: 728px) {
-    .nav{
+    .midSection p{
+        font-size: 16px;
+    }
+    .nav p{
         display: none;
     }
-    .hero-section > img{
-        display: none;
-    }
-    .logos{
-        flex-direction: column;
-    }
-    .pass{
-        flex-direction: column;
-    }
-    .pass > img{
-        display: none;
-    }
-    .container{
-        flex-direction: column;
-    }
-    .img3{
-        margin-right: 430px;
-    }
-    .paragraph4{
-        flex-direction: column;
-    }
-    .container >img{
-        display: none;
-    }
-    .pass4 >img{
-        display: none;
-    }
-    .container3{
-        margin-left: 20px;
-    }
-    .paragraph5{
-        margin-left: 20px;
-    }
-    .container2{
-        margin-left: 20px;
-    }
-    .paragraph4{
-        margin-left: 20px;
-    }
-    .pass2{
-        margin-right: 200px;
-    }
-    .pass3{
-        margin-right: 200px;
-    }
-    .container1{
-        margin-left: 20px;
-    }
-    .pass5 >img{
-        display: none;
-    }
-    .container2 >img{
-        display: none;
-    }
-    .section4 > img{
-        display: none;
-    }
-    .img2{
-        flex-direction: column;
-    }
+    .heroSection{
+        margin: 1px 10px 1%;
 
+    }
+    .heroSection img{
+        display: none;
+    }
+    .heroSection h1{
+        margin-top: -70px;
+    }
+    .footer-sider{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+    }
     .input{
         width: 70%;
     }
-    .image{
-        left: -31px;
-        top: 4px;
-    }
+
 }

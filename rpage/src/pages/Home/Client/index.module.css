@@ -24,3 +24,11 @@
     align-items: center;
     text-align: center;
 }
+@media only screen and (max-width: 728px) {
+    .img{
+        width: 100px;
+    }
+    .paragraph2{
+        flex-direction: column;
+    }
+}

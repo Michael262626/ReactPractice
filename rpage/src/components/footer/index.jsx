@@ -1,21 +1,24 @@
-import style from "../navbar/index.module.css";
+import style from "../footer/index.module.css";
 import Icon from "../../asset/Icon.png";
 import mage4 from "../../asset/mage4.png";
 import image1 from "../../asset/image1.png";
 import image2 from "../../asset/image2.png";
 import image3 from "../../asset/image3.png";
+import Vector from "../../asset/Vector.png";
 
 const Footer = () => {
     return(
         <>
             <footer className={style.footer}>
                 <div>
-                    <div style={{display: "flex", alignItems: "center"}}>
+                    <div className={style.fett}>
                         <img src={Icon} alt="logo"/>
                         <h2 style={{color: "#ffffff", fontSize: "30px"}}>Nexcent</h2>
                     </div>
-                    <p>Copyright © 2020 Nexcent ltd. <span style={{display: "block"}}>All rights reserved</span></p>
-                    <div style={{display: 'flex', gap: '10px'}}>
+                    <div className={style.fett}>
+                        <p>Copyright © 2020 Nexcent ltd. <span style={{display: "block"}}>All rights reserved</span></p>
+                    </div>
+                    <div className={style.image}>
                         <img src={mage4} alt=""/>
                         <img src={image1} alt=""/>
                         <img src={image2} alt=""/>
@@ -41,9 +44,9 @@ const Footer = () => {
                     </div>
                     <div>
                         <p>Stay up to date</p>
-                        <label>
+                        <label style={{display: 'flex', alignItems: 'center'}}>
                             <input placeholder="Your email address" className= {style.input}/>
-                            {/*<img src="asset/send.png" className="image"/>*/}
+                            <img src={Vector} className="image" alt="" style={{position: "relative", right: '30px'}}/>
                         </label>
                     </div>
                 </div>

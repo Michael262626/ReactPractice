@@ -1,0 +1,18 @@
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.container2 img{
+    margin-right: 100px;
+    width: 250px;
+}
+@media only screen and (max-width: 728px) {
+    .container2{
+        margin-left: 20px;
+    }
+    .container2 img{
+        display: none;
+    }
+}
